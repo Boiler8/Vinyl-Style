@@ -1,0 +1,7 @@
+{
+  "name": "Vinyl Style",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
