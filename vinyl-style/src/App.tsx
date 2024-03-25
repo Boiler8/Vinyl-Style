@@ -31,7 +31,7 @@ const App: React.FC = () => {
   return (
     <IonApp>
       <IonReactRouter>
-        <IonRouterOutlet>
+        <IonRouterOutlet onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
           <Route exact path="/">
             <Home />
           </Route>
