@@ -9,7 +9,6 @@ app.use(cors());
 
 // Define API endpoint to retrieve songs
 app.get('/api/songs', (req, res) => {
-    console.log("hit");
     db.all('SELECT * FROM songs', (err, rows) => {
         if (err) {
             res.status(500).json({ error: err.message });
